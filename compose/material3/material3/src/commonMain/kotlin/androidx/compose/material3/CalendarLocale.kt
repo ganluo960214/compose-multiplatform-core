@@ -35,7 +35,7 @@ import androidx.compose.runtime.ReadOnlyComposable
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 @ReadOnlyComposable
-internal expect fun defaultLocale(): CalendarLocale
+expect fun defaultLocale(): CalendarLocale
 
 /**
  * Returns a string representation of an integer for the current Locale.
